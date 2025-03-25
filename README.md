@@ -19,9 +19,28 @@ This project explores the detection of climate anomalies using Gaussian Process 
 
 ---
 
+## Requirements:
+Python 3.8+
+NumPy, pandas, matplotlib, xarray
+scikit-learn
+joblib
+
+---
+
+## How to run it:
+Train the model (optional, will be auto-triggered if missing):
+- Run train_model.ipynb or
+- Call train_and_save_gpr_model() from train_model.py
+Run the analysis:
+- Open analyze_results.ipynb
+- or run the script python analyze_results.py
+
+---
+
 ## Repository Structure
 
 ```bash
 ├── train_model.ipynb           # Notebook to train GPR model
 ├── analyze_results.ipynb       # Notebook to evaluate predictions and detect anomalies
 └── README.md                   # You are here!
+
