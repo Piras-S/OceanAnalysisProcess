@@ -2,10 +2,6 @@
 
 This project explores the detection of climate anomalies using Gaussian Process Regression (GPR) on real satellite-derived oceanographic data. The goal is to model the expected behavior of a key variable (tdrop, representing the temperature drop across the ocean's cool skin layer) and identify regions or times where observations deviate significantly from this model.
 
-<p align="center">
-  <img src="assets/example_anomaly_map.png" width="700"/>
-</p>
-
 ---
 
 ## Project Overview
