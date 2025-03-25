@@ -24,6 +24,4 @@ This project explores the detection of climate anomalies using Gaussian Process 
 ```bash
 ├── train_model.ipynb           # Notebook to train GPR model
 ├── analyze_results.ipynb       # Notebook to evaluate predictions and detect anomalies
-├── gpr_model.pkl               # Saved trained GPR model
-├── gpr_scaler.pkl              # Saved feature scaler
 └── README.md                   # You are here!
